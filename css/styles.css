@@ -1,0 +1,76 @@
+/*
+Selector antes con punto es para clase .title
+Selector con # para id  #id
+Selector global *, le da estilo a todo
+
+*/
+@font-face{
+  font-family: charter;
+  src: url('../fonts/charter-regular.otf') ; /* Ruta de la fuente*/
+  font-style: normal; /* Estilo de la fuente */
+  font-weight: 400; /* Peso de la fuente */
+
+  font-family: charter;
+  src: url('../fonts/charter-italic.otf') ; /* Ruta de la fuente*/
+  font-style: italic; /* Estilo de la fuente */
+  font-weight: 400; /* Peso de la fuente */
+
+  font-family: charter;
+  src: url('../fonts/charter-bold.otf') ; /* Ruta de la fuente*/
+  font-style: normal; /* Estilo de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+
+  font-family: charter;
+  src: url('../fonts/charter-bold-italic.otf') ; /* Ruta de la fuente*/
+  font-style: italic; /* Estilo de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+}
+
+:root{
+  font-size: 16px;
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
+
+}
+
+body{
+  color: var(--gray30);
+  font-family: charter;
+}
+
+a{
+  color: var(--gray30);
+}
+
+header{
+  /* --gray10:red  */
+  font-size: 14px;
+  color: var(--gray10);
+}
+
+header a{
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+header a:hover{
+  color:var(--gray30);
+}
+
+nav details summary{
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 24px;
+}
+
